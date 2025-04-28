@@ -1,7 +1,7 @@
 
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Printer3D, ChevronRight } from "lucide-react";
+import { Printer, ChevronRight } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -30,11 +30,11 @@ const Hero = () => {
             </div>
             <div className="flex items-center gap-4 text-sm text-gray-500">
               <div className="flex items-center gap-1">
-                <Printer3D className="h-4 w-4 text-print3d-purple" />
+                <Printer className="h-4 w-4 text-print3d-purple" />
                 <span>Современное оборудование</span>
               </div>
               <div className="flex items-center gap-1">
-                <Printer3D className="h-4 w-4 text-print3d-purple" />
+                <Printer className="h-4 w-4 text-print3d-purple" />
                 <span>Качественные материалы</span>
               </div>
             </div>
